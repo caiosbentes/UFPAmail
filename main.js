@@ -40,7 +40,7 @@ app.on('ready', function() {
     width: 1200,
     height: 800,
     frame: true,
-    icon: "/resoucers/icon.png",
+    icon: "icon.png",
     autoHideMenuBar: true,
     darkTheme: true,
     plugin:true,
@@ -59,11 +59,5 @@ app.on('ready', function() {
 
   console.log("APP READY")
 
-  // handle media keys
-  var routeShortcuts = ["MediaPreviousTrack", "MediaNextTrack", "MediaPlayPause", "MediaStop"]
-  routeShortcuts.forEach(shortcut => {
-    globalShortcut.register(shortcut, function() {
-      mainWindow.webContents.send("playback-control", shortcut)
-    })
-  })
+
 });

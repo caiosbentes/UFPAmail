@@ -1,15 +1,10 @@
-# tidal-music-linux
+# UFPAmail for Desktop
 
-This is just a simple wrapper around the Tidal web player based on Electron
+This is just a simple wrapper around the UFPA MAIL based on Electron
 for Linux.
 
-![Screenshot](https://raw.githubusercontent.com/Bunkerbewohner/tidal-music-linux/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/caiosbentes/UFPAmail/master/Screenshot.png)
 
-## Requirements 
-
-For music playback to work you need the [PepperFlashPlayer plugin](https://wiki.debian.org/PepperFlashPlayer).
-
-On Ubuntu you can install `pepperflashplugin-nonfree` (then run `sudo update-pepperflashplugin-nonfree --install`) which will copy the library to `/usr/lib/pepperflashplugin-nonfree/libpepflashplayer.so` - this path is hardcoded into the application right now. You can change it in main.js by changing the variable `pepperFlashPluginPath`.
 
 
 ## To Use
@@ -20,7 +15,7 @@ installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Bunkerbewohner/tidal-music-linux
+$ git clone https://github.com/caiosbentes/UFPAmail
 # Go into the repository
 $ cd tidal-music-linux
 # Install dependencies and run the app
