@@ -17,7 +17,7 @@ installed on your computer. From your command line:
 # Clone this repository
 $ git clone https://github.com/caiosbentes/UFPAmail
 # Go into the repository
-$ cd tidal-music-linux
+$ cd UFPAmail
 # Install dependencies and run the app
 $ npm install && npm start
 ```
